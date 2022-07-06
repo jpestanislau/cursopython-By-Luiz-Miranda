@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f9784b3-880c-4a6c-920f-6d0d5c857ef4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/session2-Intermediate-Python-Procedural-Programming/lesson1-function/lesson1.1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session2-Intermediate-Python-Procedural-Programming/lesson1-function/lesson1.2-returns.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session2-Intermediate-Python-Procedural-Programming/lesson1-function/lesson1.3-function-exercises.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session2-Intermediate-Python-Procedural-Programming/lesson1-function/lesson1.4-packaged-args.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session2-Intermediate-Python-Procedural-Programming/lesson1-function/lesson1.5-packaged-kwargs.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/session2-Intermediate-Python-Procedural-Programming/lesson1/lesson1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/session2-Intermediate-Python-Procedural-Programming/lesson1-function/lesson1.1.py" beforeDir="false" afterPath="$PROJECT_DIR$/session2-Intermediate-Python-Procedural-Programming/lesson1-function/lesson1.1-function-basic.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,52 +37,16 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/MeusProjetosGit/cursopython-By-Luiz-Miranda/session2-Intermediate-Python-Procedural-Programming/lesson1-function&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.lesson1.4-packaged-args (1)">
-    <configuration name="lesson1.1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="cursopython-By-Luiz-Miranda" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/session2-Intermediate-Python-Procedural-Programming/lesson1-function" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\MeusProjetosGit\cursopython-By-Luiz-Miranda\session2-Intermediate-Python-Procedural-Programming\lesson1-function\lesson1.1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="lesson1.2-returns" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="cursopython-By-Luiz-Miranda" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/session2-Intermediate-Python-Procedural-Programming/lesson1-function" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\MeusProjetosGit\cursopython-By-Luiz-Miranda\session2-Intermediate-Python-Procedural-Programming\lesson1-function\lesson1.2-returns.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MeusProjetosGit\cursopython-By-Luiz-Miranda\session2-Intermediate-Python-Procedural-Programming\lesson1-function" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.lesson1.5-packaged-kwargs (1)">
     <configuration name="lesson1.3-function-exercises" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="cursopython-By-Luiz-Miranda" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -149,13 +110,55 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="lesson1.5-packaged-kwargs (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="cursopython-By-Luiz-Miranda" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/session2-Intermediate-Python-Procedural-Programming/lesson1-function" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/session2-Intermediate-Python-Procedural-Programming/lesson1-function/lesson1.5-packaged-kwargs.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="lesson1.5-packaged-kwargs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="cursopython-By-Luiz-Miranda" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/session2-Intermediate-Python-Procedural-Programming/lesson1-function" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\MeusProjetosGit\cursopython-By-Luiz-Miranda\session2-Intermediate-Python-Procedural-Programming\lesson1-function\lesson1.5-packaged-kwargs.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.lesson1.5-packaged-kwargs (1)" />
+        <item itemvalue="Python.lesson1.5-packaged-kwargs" />
         <item itemvalue="Python.lesson1.4-packaged-args (1)" />
         <item itemvalue="Python.lesson1.4-packaged-args" />
         <item itemvalue="Python.lesson1.3-function-exercises" />
-        <item itemvalue="Python.lesson1.2-returns" />
-        <item itemvalue="Python.lesson1.1" />
       </list>
     </recent_temporary>
   </component>
