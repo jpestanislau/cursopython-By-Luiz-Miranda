@@ -1,5 +1,5 @@
 """
-Iterable in Python!
+Iterable and Iterator in Python!
 
 An Iterable is basically an object that any user can iterate over.
 All  Iterable have the "__iter__" method
@@ -8,7 +8,7 @@ Not every iterable is an iterator.
 An Iterator is also an object that helps a user in iterating over another object (that is iterable).
 All  Iterator have the "__next__" method.
 Every iterator is basically iterable.
-
+The FOR loop convert automatically converts an Iterable to Iterator
 
 hasattr() - Function returns True if the specified object has the specified attribute, otherwise False.
 iter() - Method returns an iterator for the given argument.
