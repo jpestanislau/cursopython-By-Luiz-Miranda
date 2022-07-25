@@ -1,8 +1,9 @@
 """
 Combinations in Python!
 
-This method takes an iterable and an input r as an input and return an object list of tuples which
-contain all possible combination of length r in a list form. The order doesn't matter.
+This method takes an iterable and an input r as an input and return an object (iterator) of tuples which
+contain all possible combination of length. 
+The order doesn't matter.
 (a, b) == (b, a)
 
 combinations(iterable, r)
