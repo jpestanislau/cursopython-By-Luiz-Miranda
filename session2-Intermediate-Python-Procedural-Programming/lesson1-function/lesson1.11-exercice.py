@@ -44,10 +44,21 @@ def is_only_digit(value):
 
 
 def is_valid_to_test(value):
-    pass
+    value = remove_dots(value)
+    if not test_len(value):
+        return False
+    if not is_only_digit(value):
+        return False
+    return value
+
+
+def is_valid(value):
+    value = list(value)
+    print(value)
 
 
 while True:
     cnpj_entered = input('Type the CNPJ: ')
-
-
+    edited_cnpj = is_valid_to_test(cnpj_entered)
+    if edited_cnpj:
+        is_valid(edited_cnpj)
