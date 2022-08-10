@@ -30,6 +30,7 @@ def remove_dots(value):
     value = value.replace(',', '')
     value = value.replace('-', '')
     value = value.replace('/', '')
+    value = value.replace(' ', '')
     return value
 
 
@@ -54,11 +55,37 @@ def is_valid_to_test(value):
 
 def is_valid(value):
     value = list(value)
-    print(value)
+    value.pop()
+    value.pop()
+    lis1 = [5, 4, 3, 2, 9, 8, 7, 6, 5, 4, 3, 2]
+    lis2 = [6, 5, 4, 3, 2, 9, 8, 7, 6, 5, 4, 3, 2]
+    calc = 0
+    accu = 0
+    pro = 0
+
+    for x in range(len(lis1)):
+        a = lis1[x]
+        b = int(value[x])
+        accu += lis1[x] * int(value[x])
+
+    calc = 11 - (accu % 11)
+    first_digit = calc if calc <= 9 else 0
+    value.append(str(first_digit))
+
+    accu = 0
+    for x in range(len(lis2)):
+        accu += lis2[x] * int(value[x])
+    calc = 11 - (accu % 11)
+    second_digit = calc if calc <= 9 else 0
+    value.append(str(second_digit))
+
+    if value == list(edited_cnpj):
+        return True
+    return False
 
 
 while True:
     cnpj_entered = input('Type the CNPJ: ')
     edited_cnpj = is_valid_to_test(cnpj_entered)
     if edited_cnpj:
-        is_valid(edited_cnpj)
+        print(is_valid(edited_cnpj))
